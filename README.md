@@ -1,3 +1,1 @@
-# DsA
-Data Structures and Algorithms Implementation in ```C++```.
-
+Data Structures and Algorithms Implementation in '''c++''
