@@ -2,12 +2,12 @@
 using namespace std;
 
 void print(int a) {  
-    if (a == 1) {
+    if (a == 1) { // Base condition
         cout << a << endl;
         return;
     }
     cout << a << endl;
-    print(a - 1);
+    print(a - 1); // recursive call
 }
 
 int factorial(int a){
@@ -20,5 +20,5 @@ int factorial(int a){
 int main() {
     int a = 5;
     print(a);
-    cout<<factorial(a);  
+    cout<<factorial(a)<<endl;  
 }
